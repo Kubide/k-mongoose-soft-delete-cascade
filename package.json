@@ -1,0 +1,50 @@
+{
+  "name": "k-mongoose-soft-delete-cascade",
+  "version": "0.0.1",
+  "description": "A plugin to make cascade deleting with k-mongoose-soft-delete plugins",
+  "main": "index.js",
+  "scripts": {
+    "ncu": "./node_modules/.bin/ncu",
+    "dev": "clear && export NODE_ENV=development && npm install && npm update && ./node_modules/.bin/nodemon",
+    "test": "clear && export NODE_ENV=development && npm install && ./node_modules/.bin/mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kubide/k-mongoose-soft-delete-cascade.git"
+  },
+  "directories": {
+    "lib": "./lib"
+  },
+  "keywords": [
+    "mongoose",
+    "delete",
+    "softdelete",
+    "soft delete",
+    "soft remove"
+  ],
+  "author": "Kubide <hola@kubide.es> (http://kubide.es)",
+  "contributors": [
+    "Ángel Luis Quesada <angel.quesada@kubide.es> (http://gelito.me)",
+    "Eneko Lakasta <eneko.lakasta@kubide.es>"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Kubide/k-mongoose-soft-delete-cascade/issues"
+  },
+  "homepage": "https://github.com/Kubide/k-mongoose-soft-delete-cascade#readme",
+  "engines": {
+    "node": ">= 4.4.2"
+  },
+  "dependencies": {
+    "mongoose": "^4.4.12"
+  },
+  "devDependencies": {
+    "chai": "^3.3.0",
+    "express": "^4.13.4",
+    "k-mongoose-soft-delete": "0.0.3",
+    "mocha": "^2.3.3",
+    "nodemon": "^1.7.1",
+    "npm-check-updates": "^2.6.1",
+    "supertest": "^1.1.0"
+  }
+}
