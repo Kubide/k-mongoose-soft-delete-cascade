@@ -25,7 +25,8 @@
   "author": "Kubide <hola@kubide.es> (http://kubide.es)",
   "contributors": [
     "Ángel Luis Quesada <angel.quesada@kubide.es> (http://gelito.me)",
-    "Eneko Lakasta <eneko.lakasta@kubide.es>"
+    "Eneko Lakasta <eneko.lakasta@kubide.es>",
+    "Roberto Marín <roberto.marin@kubide.es>"
   ],
   "license": "MIT",
   "bugs": {
