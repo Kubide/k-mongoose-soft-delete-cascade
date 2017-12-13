@@ -1,6 +1,6 @@
 {
   "name": "k-mongoose-soft-delete-cascade",
-  "version": "0.0.1",
+  "version": "1.0.1",
   "description": "A plugin to make cascade deleting with k-mongoose-soft-delete plugins",
   "main": "index.js",
   "scripts": {
